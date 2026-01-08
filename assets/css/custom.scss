@@ -1,0 +1,31 @@
+/* Hot pink + purple theme */
+
+:root {
+  --main-bg: #0b0014;          /* optional dark tint */
+  --link-color: #ff2f92;       /* hot pink */
+  --link-hover-color: #c77dff; /* purple */
+  --sidebar-bg: #1a002b;       /* deep purple */
+  --topbar-bg: #1a002b;
+  --toc-highlight: #ff2f92;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.site-title,
+.site-subtitle {
+  color: #ff2f92;
+}
+
+.sidebar {
+  background-color: #1a002b;
+}
+
+.sidebar a:hover {
+  color: #c77dff;
+}
